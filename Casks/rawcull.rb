@@ -6,7 +6,8 @@ cask "rawcull" do
   name "RawCull"
   desc "Cull large sets of Sony ARW raw photos"
   homepage "https://github.com/rsyncOSX/RawCull"
- 
+
+  depends_on macos: ">= :tahoe"
   depends_on arch: :arm64
  
   app "RawCull.app"
