@@ -1,10 +1,10 @@
 cask "rawcull" do
-  version "1.2.4"
-  sha256 "4947b81bdef4890ee0ce1ed163120f1fca3d663a2c40ec491fc3da560c7c8c9d"
+  version "1.2.5"
+  sha256 "ba94195dca0c4e1c47349b87663ac6cc2b3443f75b90f9b57ff93916efdcd57e"
 
   url "https://github.com/rsyncOSX/RawCull/releases/download/v#{version}/RawCull.#{version}.dmg"
   name "RawCull"
-  desc "Cull large sets of Sony ARW raw photos"
+  desc "Cull large sets of Sony ARW RAW photos"
   homepage "https://github.com/rsyncOSX/RawCull"
 
   depends_on macos: ">= :tahoe"
