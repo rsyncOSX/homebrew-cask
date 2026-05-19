@@ -1,6 +1,6 @@
 cask "rawcull" do
   version "1.8.3"
-  sha256 "80120ec6dd67fe9d27c46d2be14d87ee049b96e620c3c379d328117f20cead39"
+  sha256 "8132a2805bd2c824d6d532fe175786e6de8f794d5304315d95b4a050bac6e75d"
 
   url "https://github.com/rsyncOSX/RawCull/releases/download/v#{version}/RawCull.#{version}.dmg"
   name "RawCull"
